@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AwesomelistComponent } from './awesomelist/awesomelist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AwesomelistComponent
   ],
   imports: [
     BrowserModule,
